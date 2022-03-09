@@ -86,19 +86,19 @@ first_name_pm = ""
 PM_START_TEXT = """
 ────「 {} 」────
 *Hey there {}!,*
-* I am an advance group management bot with a lots of Features. My Anime theme is from Takt OP. Destiny *
+* I am an advance group management bot with a lots of Features. 
 
 ➳➳➳➳➳➳➳➳➳➳➳➳➳➳➳
 ღღ    *Uptime:* `{}`    ღღ
 ➳➳➳➳➳➳➳➳➳➳➳➳➳➳➳
 
-♡ Try The Help Button below To Know My Abilities[.](https://telegra.ph/file/9473d3f0e989ee67bb4cd.jpg) ♡
+♡ Try The Help Button below To Know My Abilities[.](https://te.legra.ph/file/7d4e0e970cd8b8924f3c2.jpg) ♡
 """
 
 
 HELP_STRINGS = """
-Hello there, I'm Unmei Bot! Some people do call me Destiny.
-To make me functional, make sure that i have enough rights in your group[.](https://telegra.ph/file/26c430892d2ce0e407443.jpg)
+Hello there, I'm DragonReaper! 
+To make me functional, make sure that i have enough rights in your group[.](https://te.legra.ph/file/d6d1b7d44bdb96673d34a.jpg)
 Helpful commands:
 
 - /start: It will starts me! You've probably used this, as you are here now.
@@ -122,8 +122,8 @@ buttons = [
     ]
 ]
 
-GROUP_START_IMG = "https://telegra.ph/file/2d9b9613c4c7f8310c6d1.mp4"
-EMI_IMG = "https://telegra.ph/file/a4f96c30605ece22664ea.jpg"
+GROUP_START_IMG = "https://te.legra.ph/file/dba12667bb476c9a346e0.jpg"
+EMI_IMG = "https://te.legra.ph/file/524fc32ccd70e15506e7f.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @yameteee_yamete_kudasai \
@@ -213,7 +213,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="[『 ⫷ Back 』]", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="[『 ⇜ Back 』]", callback_data="help_back")]]
                     ),
                 )
 
