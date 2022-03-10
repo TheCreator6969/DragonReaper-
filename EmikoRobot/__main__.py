@@ -97,7 +97,7 @@ PM_START_TEXT = """
 
 
 HELP_STRINGS = """
-Hello there, I'm DragonReaper! 
+Hello there, I'm ⎝⎝𝐷𝑟𝑎𝑔𝑜𝑛𝑅𝑒𝑎𝑝𝑒𝑟⎠⎠! 
 To make me functional, make sure that i have enough rights in your group[.](https://te.legra.ph/file/d6d1b7d44bdb96673d34a.jpg)
 Helpful commands:
 
@@ -109,7 +109,7 @@ List of all the Modules:
     dispatcher.bot.first_name, "" if not ALLOW_EXCL else "📝All commands can either be used with / or !.")
 buttons = [
     [
-        InlineKeyboardButton(text=f"『 ➕ Add Me 』",url=f"https://telegram.dog/Destiny_x_Bot?startgroup=true"),
+        InlineKeyboardButton(text=f"『 ➕ Add Me To Your Group 』",url=f"https://telegram.dog/Destiny_x_Bot?startgroup=true"),
         InlineKeyboardButton(text="『 🙇 Help 』", callback_data="help_back")
     ],
     [
@@ -374,7 +374,7 @@ def emiko_about_callback(update, context):
     query = update.callback_query
     if query.data == "emiko_":
         query.message.edit_text(
-            text="๏ I'm *Unmei (Destiny)*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *⎝⎝𝐷𝑟𝑎𝑔𝑜𝑛𝑅𝑒𝑎𝑝𝑒𝑟⎠⎠*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -423,7 +423,7 @@ def emiko_about_callback(update, context):
     elif query.data == "emiko_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, Unmei (Destiny) is now ready to manage your group."
+            "\nCongragulations, ⎝⎝𝐷𝑟𝑎𝑔𝑜𝑛𝑅𝑒𝑎𝑝𝑒𝑟⎠⎠ is now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
