@@ -88,9 +88,9 @@ PM_START_TEXT = """
 *Hey there {}!,*
 * I am an advance group management bot with a lots of Features. 
 
-➳➳➳➳➳➳➳➳➳➳➳➳➳➳➳
-ღღ    *Uptime:* `{}`    ღღ
-➳➳➳➳➳➳➳➳➳➳➳➳➳➳➳
+➳➳➳➳        ツ
+ღღ    *Uptime:* `{}`    〄
+➳➳➳➳        ツ
 
 ♡ Try The Help Button below To Know My Abilities[.](https://te.legra.ph/file/7d4e0e970cd8b8924f3c2.jpg) ♡
 """
@@ -109,11 +109,11 @@ List of all the Modules:
     dispatcher.bot.first_name, "" if not ALLOW_EXCL else "📝All commands can either be used with / or !.")
 buttons = [
     [
-        InlineKeyboardButton(text=f"『 ➕ Add Me To Your Group 』",url=f"https://telegram.dog/Destiny_x_Bot?startgroup=true"),
-        InlineKeyboardButton(text="『 🙇 Help 』", callback_data="help_back")
+        InlineKeyboardButton(text=f"『 ➕ Add Me To Your Group 』",url=f"https://telegram.dog/DragonReaper_Bot?startgroup=true"),
+        InlineKeyboardButton(text="『 ⚡ Help 』", callback_data="help_back")
     ],
     [
-        InlineKeyboardButton(text="『 🌟 Anime Channel 』",url="https://t.me/trending_anime_series"),
+        InlineKeyboardButton(text="『 🌟 Anime Channel 』",url="https://t.me/+EGG5Y4K86G0zZTA1"),
         InlineKeyboardButton(text="『 ❔ Otaku Talks 』", url="https://t.me/tas_support")
     ],
     [
@@ -126,7 +126,7 @@ GROUP_START_IMG = "https://te.legra.ph/file/dba12667bb476c9a346e0.jpg"
 EMI_IMG = "https://te.legra.ph/file/524fc32ccd70e15506e7f.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @yameteee_yamete_kudasai \
+ You can support the project by contacting @AStupidBoi \
  Supporting isn't always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -592,7 +592,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Go Back", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="〄Go Back〄", callback_data="help_back")]]
             ),
         )
 
@@ -813,7 +813,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "👋 Moshi Mosh Minna,\nI['](https://telegra.ph/file/fdaa7b5fbf2ebb380e714.mp4)m awake again.",
+                "👋 hello there... ,\nI['](https://te.legra.ph/file/d6d1b7d44bdb96673d34a.jpg)m awake again.",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
