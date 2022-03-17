@@ -19,13 +19,11 @@ def wall(update: Update, context: CallbackContext):
     if not query:
         msg.reply_text("Please enter a query!")
         return
-    caption = query+"\n**Powered by Wallpaper Abyss**"
+    caption = query + "\n**Powered by Wallpaper Abyss**"
     term = query.replace(" ", "%20")
-    
-    
+
     # Powered by Wallpaper Abyss
-    
-    
+
     json_rep = r.get(
         f"https://wall.alphacoders.com/api2.0/get.php?auth={WALL_API}&method=search&term={term}",
     ).json()

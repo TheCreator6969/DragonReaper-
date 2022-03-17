@@ -29,7 +29,7 @@ from EmikoRobot import REM_BG_API_KEY
 from EmikoRobot.events import register
 from EmikoRobot import telethn as tbot
 
-#REM_BG_API_KEY = "REM_BG_API_KEY"
+# REM_BG_API_KEY = "REM_BG_API_KEY"
 TEMP_DOWNLOAD_DIRECTORY = "./"
 
 
