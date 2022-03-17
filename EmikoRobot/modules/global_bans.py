@@ -300,7 +300,9 @@ def ungban(update: Update, context: CallbackContext):
         message.reply_text("This user is not gbanned!")
         return
 
-    message.reply_text(f"I'll give {user_chat.first_name} a second chance, globally offcourse.\n Be Grateful..")
+    message.reply_text(
+        f"I'll give {user_chat.first_name} a second chance, globally offcourse.\n Be Grateful.."
+    )
 
     start_time = time.time()
     datetime_fmt = "%Y-%m-%dT%H:%M"

@@ -18,6 +18,7 @@ from telethon.utils import is_image, is_video
 
 from EmikoRobot.events import register
 
+
 @register(pattern="^/whatanime(.*)")
 async def whatanime(e):
     media = e.media
@@ -94,6 +95,7 @@ def is_gif(file):
     if not is_video(file):
         return False
     return DocumentAttributeAnimated() in getattr(file, "document", file).attributes
+
 
 __help__ = """
 
