@@ -88,17 +88,17 @@ PM_START_TEXT = """
 *Hey there {}!,*
 * I am an advance group management bot with a lots of Features. 
 
-➳➳➳➳        ツ
-ღღ    *Uptime:* `{}`    〄
-➳➳➳➳        ツ
+      ツ
+    *Uptime:* `{}`    〄
+       ツ
 
 ♡ Try The Help Button below To Know My Abilities[.](https://te.legra.ph/file/7d4e0e970cd8b8924f3c2.jpg) ♡
 """
 
 
 HELP_STRINGS = """
-Hello there, I'm ⎝⎝𝐷𝑟𝑎𝑔𝑜𝑛𝑅𝑒𝑎𝑝𝑒𝑟⎠⎠! 
-To make me functional, make sure that i have enough rights in your group[.](https://te.legra.ph/file/d6d1b7d44bdb96673d34a.jpg)
+Hello there, I'm Shikimori-San!! 
+To make me functional, make sure that i have enough rights in your group[.](https://te.legra.ph/file/fc72fadfc0c2185904ff7.mp4)
 Helpful commands:
 
 - /start: It will starts me! You've probably used this, as you are here now.
@@ -109,11 +109,11 @@ List of all the Modules:
     dispatcher.bot.first_name, "" if not ALLOW_EXCL else "📝All commands can either be used with / or !.")
 buttons = [
     [
-        InlineKeyboardButton(text=f"『 ➕ Add Me To Your Group 』",url=f"https://telegram.dog/DragonReaper_Bot?startgroup=true"),
-        InlineKeyboardButton(text="『 ⚡ Help 』", callback_data="help_back")
+        InlineKeyboardButton(text=f"『 ✛ Add Me To Your Group 』",url=f"https://telegram.dog/DragonReaper_Bot?startgroup=true"),
+        InlineKeyboardButton(text="『 🔥 Help 』", callback_data="help_back")
     ],
     [
-        InlineKeyboardButton(text="『 🌟 Anime Channel 』",url="https://t.me/+EGG5Y4K86G0zZTA1"),
+        InlineKeyboardButton(text="『 ✨ Anime Channel 』",url="https://t.me/+EGG5Y4K86G0zZTA1"),
         InlineKeyboardButton(text="『 ❔ Otaku Talks 』", url="https://t.me/tas_support")
     ],
     [
@@ -122,10 +122,10 @@ buttons = [
     ]
 ]
 
-GROUP_START_IMG = "https://te.legra.ph/file/dba12667bb476c9a346e0.jpg"
-EMI_IMG = "https://te.legra.ph/file/524fc32ccd70e15506e7f.jpg"
+GROUP_START_IMG = "https://te.legra.ph/file/fbe6100681da796ee882c.jpg"
+EMI_IMG = "https://te.legra.ph/file/fc72fadfc0c2185904ff7.mp4"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
+DONATE_STRING = """Heyya, glad to hear you want to donate!!
  You can support the project by contacting @AStupidBoi \
  Supporting isn't always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
@@ -374,7 +374,7 @@ def emiko_about_callback(update, context):
     query = update.callback_query
     if query.data == "emiko_":
         query.message.edit_text(
-            text="๏ I'm *⎝⎝𝐷𝑟𝑎𝑔𝑜𝑛𝑅𝑒𝑎𝑝𝑒𝑟⎠⎠*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *Shikimori-San*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -423,7 +423,7 @@ def emiko_about_callback(update, context):
     elif query.data == "emiko_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, ⎝⎝𝐷𝑟𝑎𝑔𝑜𝑛𝑅𝑒𝑎𝑝𝑒𝑟⎠⎠ is now ready to manage your group."
+            "\nCongragulations, Shikimori-San is now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
